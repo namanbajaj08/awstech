@@ -1,0 +1,56 @@
+VCS - Version Control System
+-----------------------------------------
+System to manage the versions of different files in your repository.
+
+Github
+------------
+1) Create your own Github Account.
+2) Centratlized Repo to Store your Code.
+
+Git 
+------
+Tool To access your Repository.
+
+
+Repository (Folder)
+----------------------------
+Place where you store your code ie. text File, Java FIle, Python File, JPEG, VIDEO, Properties Files, XML Files, JAVASCript FIle.
+
+Types of Repository 
+-----------------------------
+1) Local Repo 
+2) Remote Repo 
+
+
+1) git pull - Pull the remote repo
+2) git init - initialize the local repo
+3) Created a new File in the Folder.
+4) git status - To track the changes or Differences in my local repo.
+
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Lab1.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5) git add FileName - Adds the File to the Staging Area.
+6) $ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Lab1.docx
+6) git commit Lab1.docx -m "My First Commit" - This commits to the local repository.
+
+7)  git push
+9) Reset Hard to the Master Branch
+--------------------------------------------------
+git fetch --all
+git reset --hard origin/master
+git pull origin master
+
+
+
