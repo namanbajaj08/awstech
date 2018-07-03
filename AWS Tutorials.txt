@@ -1,0 +1,26 @@
+Aws Study links
+
+
+1. Cloud Guru user Eric Gu - (Question)
+https://acloud.guru/forums/aws-certified-sysops-administrator-associate/discussion/-LBT2p6zPbnEqDbWvnpG/passed_sysops_today
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. AWS Knowledge Center Videos - OFFICIAL (tutorial)
+
+https://www.youtube.com/watch?v=jdtTaoPEi_U&list=PLhr1KZpdzukfdjsOHZ-BazZt1iK1J8UUw 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Sam the cloud guy (tutorial)
+
+https://www.youtube.com/watch?v=ye7hgGZwSsY&list=PLJIqXVV4K5LXEGBDPy1mxigzNVMAzkOHv
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. PluralSight 
+
+a. https://app.pluralsight.com/library/courses/aws-certified-solutions-architect-professional/table-of-contents
+
+
+
