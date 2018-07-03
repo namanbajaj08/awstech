@@ -22,6 +22,75 @@ Types of Repository
 2) Remote Repo 
 
 
+Steps to pull and push code in github using GIT
+1. Install Git in your computer 
+2. Create a new folder and open it 
+3. Right click inside the folder you see a option "Git Bash here" Click on that
+4. A new cmd type window popup type this commands
+	a. git init                                   // this will create a hidden .git folder inside tht folder you have created , used to initialize the local repo
+	
+5. If you have an existing github repository which you have to clone then navigate to that repository in your github a/c open it and click on "Clone or 	   download" you see a link of your repository, copy that link  
+
+	b. git clone <link>
+
+	c. git pull     //this method is used to pull the content from your repository
+
+6. Now create a new file or paste any existing file which you have to move in repo or if you have to update a existing file which is pulled from repo
+
+	d. git status   // this command is used to track the changes of that file "if the file color is red then it will not push to stagging area else green then you 			can movw further, to move a file into stagging area use 
+
+	e. git add filename  or git add .   (if you have multiple files to move then used . after 'add' it will move all the files)
+
+7. Check the git status again if the file color is green you can move ahead.
+
+8. Now your files is in stagging area, now you have completed your task in file (means you do not want any changes in you file) 
+
+	f. git commit filename -m "Text msg"   (You can type any thing in "")   // this command will move your file into loacal repo (not in remote repo)
+	
+9. if you face any error regarding
+-------------------------------------------------------------------------
+	*** Please tell me who you are.
+
+	Run
+
+	git config --global user.email "you@example.com"
+  	git config --global user.name "Your Name"
+
+	to set your account's default identity.	
+	Omit --global to set the identity only in this repository.
+
+	fatal: unable to auto-detect email address 
+----------------------------------------------------------------------------
+10. Go to your folder >.git>config  open this file with notepad/notepad++
+
+	Paste this 
+
+	[user]
+	
+		name = Your Name
+	
+		email = Your Github email a/c	
+		username = Your Github username
+
+	and Save this file 
+
+-----------------------------------------------------------------------------
+11. if you see this kind of msg
+
+	 1 file changed, 56 insertions(+)
+ 	 create mode 100644 steps.txt
+
+
+     means your file is committed to local repo
+
+12. Now to push that file into remote repo
+
+	g. git push   //it will push that file into your github repo
+
+To push data into remote remo you have to connect with your github a/c into your pc when you type command "git push" a popup window opened which will ask you to share your github credential add your credential after that your file will move to your github repo
+
+*********************************************************************************************************************************************************************  
+
 1) git pull - Pull the remote repo
 2) git init - initialize the local repo
 3) Created a new File in the Folder.
@@ -51,6 +120,3 @@ Changes to be committed:
 git fetch --all
 git reset --hard origin/master
 git pull origin master
-
-
-
